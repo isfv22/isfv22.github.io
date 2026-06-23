@@ -1,6 +1,6 @@
 # ISFV22 — Image placement guide
 
-> **Status:** the MFV logo and all Madrid/venue photos are now in place. The only images still to supply are the four flow-visualization images (`flowviz-hero.jpg`, `flowviz-1.jpg`, `flowviz-2.jpg`, `flowviz-3.jpg`). Replace each placeholder file in `assets/`, keeping the filename, and the pages update automatically.
+> **Status:** the three flagship flow-visualization images and all Madrid/venue photos are in place. Three additional placeholders — `flowviz-4.jpg`, `flowviz-5.jpg`, `flowviz-6.jpg` — sit in the Home showcase, ready for more flow-visualization images. To change any image, replace the file in `assets/` keeping the same filename.
 
 
 Every image slot on the site currently shows a **labelled placeholder**. To go live:

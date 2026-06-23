@@ -33,6 +33,9 @@ sup { font-size: .58em; line-height: 0; position: relative; vertical-align: supe
 .site-header { position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line); backdrop-filter: blur(8px); }
 .masthead { display: flex; align-items: center; gap: 1.25rem; padding: .85rem 0; }
 .brand-lockup { display: flex; align-items: center; gap: .85rem; color: var(--ink); min-width: 0; }
+.brand-logo { height: 64px; width: auto; display: block; }
+.section-emblem { display: block; height: 94px; width: auto; margin: 0 0 1.1rem; }
+.section-heading.center .section-emblem { margin-left: auto; margin-right: auto; }
 .brand-lockup:hover { text-decoration: none; }
 .logo-isfv { width: 56px; height: 66px; object-fit: contain; background: #fff; border-radius: 10px; padding: 3px; border: 1px solid var(--line); }
 .brand-lockup span { display: flex; flex-direction: column; }
@@ -101,6 +104,7 @@ ul { padding-left: 1.2rem; }
 .clean-list { list-style: none; padding: 0; margin: 0; }
 .clean-list li { padding: .45rem 0; border-bottom: 1px solid var(--line); }
 .clean-list li:last-child { border-bottom: 0; }
+.columns-list li:last-child { border-bottom: 1px solid var(--line); }
 .columns-list { columns: 2; column-gap: 2rem; }
 .committee-layout { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
 .scientific-committee { margin-top: 1rem; }
@@ -127,7 +131,7 @@ ul { padding-left: 1.2rem; }
 .site-footer a { color: white; }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 2rem; }
 .footer-grid h2 { font-size: 1rem; color: white; }
-.footer-logo { width: 54px; height: 66px; object-fit: contain; border-radius: 9px; background: #fff; padding: 3px; }
+.footer-logo { width: 162px; height: auto; display: block; border-radius: 10px; background: #fff; padding: 8px 10px; margin-bottom: 0.9rem; }
 .footer-bottom { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,.18); display: flex; justify-content: space-between; gap: 1rem; color: #dfe5ff; font-size: .9rem; }
 @media (max-width: 980px) {
   .uc3m-logo img { width: 280px; }
@@ -138,19 +142,22 @@ ul { padding-left: 1.2rem; }
 }
 @media (max-width: 760px) {
   .container { width: min(100% - 28px, var(--max)); }
-  .top-strip-inner { flex-direction: column; gap: .25rem; }
-  .masthead { flex-wrap: wrap; }
-  .uc3m-logo { order: 3; width: 100%; margin-left: 0; }
-  .uc3m-logo img { width: min(100%, 360px); }
-  .menu-button { display: block; }
+  /* Compact sticky header on mobile: hide the top strip, uc3m wordmark and subtitle; keep brand + menu */
+  .top-strip { display: none; }
+  .masthead { flex-wrap: nowrap; justify-content: space-between; gap: .75rem; padding: .5rem 0; }
+  .uc3m-logo { display: none; }
+  .brand-lockup small { display: none; }
+  .logo-isfv { width: 40px; height: 48px; }
+  .brand-lockup strong { font-size: 1.06rem; }
+  .menu-button { display: block; margin-left: auto; }
   .primary-nav { display: none; }
-  .primary-nav.open { display: block; }
-  .nav-inner { flex-direction: column; padding: .5rem 0; }
-  .nav-item, a.nav-item { display: block; width: 100%; }
+  .primary-nav.open { display: block; max-height: calc(100vh - 60px); overflow-y: auto; }
+  .nav-inner { flex-direction: column; padding: .35rem 0; }
+  .nav-item, a.nav-item, .nav-item > a { display: block; width: 100%; }
   .nav-item > a, a.nav-item { padding: .8rem 0; }
   .nav-item.active > a, a.nav-item.active { box-shadow: none; color: var(--uc3m-blue); }
-  .dropdown-toggle { position: absolute; right: 0; top: .55rem; padding: .3rem .5rem; }
-  .dropdown { position: static; box-shadow: none; border-radius: 12px; margin-bottom: .5rem; }
+  .dropdown-toggle { position: absolute; right: 0; top: .45rem; padding: .45rem .65rem; font-size: 1.15rem; }
+  .dropdown { position: static; box-shadow: none; border: 1px solid var(--line); border-radius: 12px; margin: 0 0 .5rem; }
   .has-dropdown.open .dropdown { display: block; }
   .hero-content { margin-left: 14px; padding: 4rem 0; }
   .home-hero { min-height: 480px; }
@@ -232,3 +239,27 @@ ul { padding-left: 1.2rem; }
 .button, .btn { text-transform: uppercase; letter-spacing: .04em; font-weight: 700; }
 
 .dropdown a { text-transform: none; letter-spacing: normal; font-size: .94rem; font-weight: 500; }
+
+.poi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 1.5rem; }
+.poi-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 12px; margin-bottom: .85rem; display: block; }
+.poi-card h3 { margin: 0 0 .2rem; color: var(--uc3m-blue); }
+.poi-card .poi-meta { margin: 0 0 .45rem; color: var(--muted); font-size: .82rem; font-family: var(--font-brand); }
+.poi-card p { margin: 0; }
+@media (max-width: 900px) { .poi-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .poi-grid { grid-template-columns: 1fr; } }
+
+.slideshow { position: relative; }
+.slideshow .slides { position: relative; aspect-ratio: 16 / 9; border-radius: var(--radius); overflow: hidden; box-shadow: 0 14px 34px rgba(0,20,137,.10); background: #0a1230; }
+.slideshow .slide { position: absolute; inset: 0; margin: 0; opacity: 0; transition: opacity .9s ease; }
+.slideshow .slide.is-active { opacity: 1; }
+.slideshow .slide img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.slideshow .slide figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 2.4rem 1.1rem .9rem; color: #fff; font-size: .84rem; line-height: 1.45; background: linear-gradient(to top, rgba(0,0,0,.74), rgba(0,0,0,0)); }
+.slideshow .slide figcaption .credit { display: block; margin-top: .15rem; color: rgba(255,255,255,.82); font-size: .75rem; }
+.slide-dots { display: flex; gap: .42rem; justify-content: center; margin-top: .75rem; flex-wrap: wrap; }
+.slide-dots button { width: 9px; height: 9px; padding: 0; border-radius: 50%; border: 0; background: var(--line); cursor: pointer; transition: background .2s; }
+.slide-dots button.is-active { background: var(--uc3m-blue); }
+.welcome-logo { display: block; width: 100%; max-width: 340px; height: auto; margin: 0 0 1rem; }
+
+.affiliations-banner { margin: 1.4rem 0 0.25rem; }
+.affiliations-banner img { display: block; width: 100%; max-width: 760px; height: auto; }
+

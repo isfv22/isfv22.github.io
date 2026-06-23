@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">Flow visualization line pattern</title>
+<desc id="desc">Original abstract flow visualization pattern using UC3M blue tones.</desc>
+<rect width="1200" height="700" fill="#f7f8ff"/>
+<g fill="none" stroke="#000e78" stroke-width="12" opacity="0.18">
+  <path d="M-80 560 C180 400 300 760 520 520 S850 240 1280 380"/>
+  <path d="M-100 430 C150 250 290 640 520 410 S870 120 1300 280"/>
+  <path d="M-120 300 C130 120 300 520 540 300 S870 10 1300 160"/>
+</g>
+<g fill="none" stroke="#000e78" stroke-width="5" opacity="0.42">
+  <path d="M60 610 C280 480 410 690 590 520 C740 380 830 220 1120 250"/>
+  <path d="M80 520 C300 390 420 610 610 430 C780 270 850 130 1140 160"/>
+  <path d="M100 430 C310 305 450 520 630 340 C790 180 880 55 1160 75"/>
+</g>
+<circle cx="230" cy="210" r="70" fill="#000e78" opacity="0.08"/>
+<circle cx="970" cy="510" r="110" fill="#000e78" opacity="0.06"/>
+</svg>

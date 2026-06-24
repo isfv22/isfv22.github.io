@@ -263,3 +263,12 @@ ul { padding-left: 1.2rem; }
 .affiliations-banner { margin: 1.4rem 0 0.25rem; }
 .affiliations-banner img { display: block; width: 100%; max-width: 760px; height: auto; }
 
+
+.history-list { list-style: none; columns: 3; column-gap: 2.2rem; margin: 1.1rem 0 0; padding: 0; }
+.history-list li { break-inside: avoid; padding: .28rem 0; font-size: .93rem; color: var(--ink); }
+.history-list .hy { display: inline-block; min-width: 3.1em; font-weight: 700; color: var(--uc3m-blue); }
+.history-list li.current { font-weight: 700; color: var(--accent); }
+.history-list li.current .hy { color: var(--accent); }
+@media (max-width: 760px) { .history-list { columns: 2; } }
+
+.anniv-badge { display: inline-block; margin-top: .7rem; padding: .4rem 1.05rem; background: var(--uc3m-blue); color: #fff; border-radius: 999px; font-weight: 700; font-size: .85rem; letter-spacing: .04em; }

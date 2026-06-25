@@ -194,6 +194,12 @@ ul { padding-left: 1.2rem; }
 .flow-showcase { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.1rem; margin-top: 2rem; }
 .flow-showcase .media-figure img { aspect-ratio: 4 / 3; }
 
+/* Award namesakes */
+.award-namesakes .media-figure img { aspect-ratio: 4 / 3; background: var(--soft); }
+.award-namesakes .content-card { display: flex; flex-direction: column; }
+.award-namesakes .content-card h3 { margin: 1.05rem 0 .45rem; font-size: 1.12rem; }
+.award-namesakes .content-card p { margin: 0; color: var(--ink); }
+
 /* Madrid / venue gallery (3-up, can wrap) */
 .madrid-gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1.5rem; }
 .madrid-gallery .media-figure img { aspect-ratio: 3 / 2; }
@@ -272,3 +278,22 @@ ul { padding-left: 1.2rem; }
 @media (max-width: 760px) { .history-list { columns: 2; } }
 
 .anniv-badge { display: inline-block; margin-top: .7rem; padding: .4rem 1.05rem; background: var(--uc3m-blue); color: #fff; border-radius: 999px; font-weight: 700; font-size: .85rem; letter-spacing: .04em; }
+
+/* Clickable chair names + bio modals */
+.bio-link { background: none; border: 0; padding: 0; margin: 0; font: inherit; font-weight: 700; color: var(--uc3m-blue); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
+.bio-link:hover { color: var(--uc3m-blue-2); }
+.bio-modal { width: min(560px, calc(100% - 2rem)); max-width: 560px; padding: 0; border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 24px 70px rgba(0,20,137,.28); color: var(--ink); position: relative; }
+.bio-modal::backdrop { background: rgba(0,20,137,.32); }
+.bio-modal .bio-inner { padding: 1.7rem 1.7rem 1.5rem; }
+.bio-modal .bio-head { display: flex; gap: 1.1rem; align-items: center; margin-bottom: 1rem; }
+.bio-modal .bio-head img { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; flex: 0 0 auto; box-shadow: var(--shadow); background: var(--soft); }
+.bio-modal h3 { margin: 0 0 .25rem; font-size: 1.25rem; }
+.bio-modal .bio-role { margin: 0; color: var(--uc3m-blue); font-weight: 700; font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; }
+.bio-modal .bio-affil { margin: .2rem 0 0; color: var(--muted); font-size: .92rem; }
+.bio-modal p { line-height: 1.62; }
+.bio-modal .bio-email { margin: 1rem 0 0; font-weight: 700; }
+.bio-close { position: absolute; top: .55rem; right: .7rem; width: 2rem; height: 2rem; border: 0; background: transparent; color: var(--muted); font-size: 1.55rem; line-height: 1; border-radius: 999px; cursor: pointer; }
+.bio-close:hover { background: var(--soft); color: var(--ink); }
+@media (max-width: 520px) {
+  .bio-modal .bio-head { flex-direction: column; text-align: center; align-items: center; }
+}

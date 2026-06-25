@@ -51,3 +51,19 @@ function initSlideshows() {
   });
 }
 initSlideshows();
+
+/* Chair / co-chair bio modals */
+document.querySelectorAll('[data-bio-target]').forEach(function (btn) {
+  btn.addEventListener('click', function () {
+    var dlg = document.getElementById(btn.getAttribute('data-bio-target'));
+    if (dlg && typeof dlg.showModal === 'function') dlg.showModal();
+  });
+});
+document.querySelectorAll('.bio-modal').forEach(function (dlg) {
+  var closeBtn = dlg.querySelector('.bio-close');
+  if (closeBtn) closeBtn.addEventListener('click', function () { dlg.close(); });
+  dlg.addEventListener('click', function (e) {
+    var r = dlg.getBoundingClientRect();
+    if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) dlg.close();
+  });
+});

@@ -49,3 +49,7 @@ flowviz-7.jpg (Lorène Champougny — floating dripping jet of olive oil, monodi
 
 ## Institutional banner
 uc3m-aero-maeztu.png — official UC3M / Aerospace Engineering Department / María de Maeztu Unit of Excellence header, supplied by the organisers.
+
+Award namesakes (awards.html): award-leonardo.jpg — Leonardo da Vinci, "Studies of Water passing Obstacles and falling", Royal Collection Trust, Windsor Castle. award-asanuma.jpg — artistic representation of flow separation around a wing, supplied for ISFV22. award-carlomagno.jpg — artistic representation of vortices on a rotating disk imaged by infrared thermography, supplied for ISFV22.
+
+Conference chair / co-chair portraits (organization.html modals): chair-ianiro.jpg (Andrea Ianiro) and chair-discetti.jpg (Stefano Discetti), supplied by the organisers (UC3M).

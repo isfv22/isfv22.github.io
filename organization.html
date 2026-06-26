@@ -62,7 +62,7 @@
       <div class="container committee-layout">
         <article class="content-card">
           <h2>Conference chairs</h2>
-          <ul class="clean-list"><li><strong>Andrea Ianiro</strong>, Universidad Carlos III de Madrid, Spain — Chair</li><li><strong>Stefano Discetti</strong>, Universidad Carlos III de Madrid, Spain — Co-Chair</li></ul>
+          <ul class="clean-list"><li><button class="bio-link" type="button" data-bio-target="bio-ianiro">Andrea Ianiro</button>, Universidad Carlos III de Madrid, Spain — Chair</li><li><button class="bio-link" type="button" data-bio-target="bio-discetti">Stefano Discetti</button>, Universidad Carlos III de Madrid, Spain — Co-Chair</li></ul>
         </article>
         <article class="content-card">
           <h2>Local organizing committee</h2>
@@ -87,8 +87,88 @@
       </div>
     </section>
 
+    <section class="section alternate">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow">Flow visualization</p>
+          <h2>From the host laboratory</h2>
+          <p class="muted">Artistic representations of flow visualization from the Experimental Aerodynamics &amp; Propulsion Lab at Universidad Carlos III de Madrid.</p>
+        </div>
+        <div class="slideshow" data-interval="4500">
+          <div class="slides">
+            <figure class="slide">
+              <img src="assets/flowviz-1.jpg" alt="LIC visualization of the wake of a fluidic pinball" loading="lazy">
+              <figcaption>Artistic representation of a line integral convolution (LIC) visualization of the wake of a fluidic pinball.<span class="credit">Alicia Rodríguez-Asensio · Experimental Aerodynamics &amp; Propulsion Lab, UC3M</span></figcaption>
+            </figure>
+            <figure class="slide">
+              <img src="assets/flowviz-2.jpg" alt="PIV visualization showing particles and vorticity" loading="lazy">
+              <figcaption>Artistic representation of a PIV flow visualization showing particles and vorticity.<span class="credit">Luca Franceschelli · Experimental Aerodynamics &amp; Propulsion Lab, UC3M</span></figcaption>
+            </figure>
+            <figure class="slide">
+              <img src="assets/flowviz-3.jpg" alt="Instantaneous Stanton number map in a turbulent channel flow" loading="lazy">
+              <figcaption>Artistic representation of an instantaneous Stanton number map in a turbulent channel flow.<span class="credit">Antonio Cuéllar · Experimental Aerodynamics &amp; Propulsion Lab, UC3M</span></figcaption>
+            </figure>
+            <figure class="slide">
+              <img src="assets/flowviz-4.jpg" alt="Anomaly of daily precipitations via meshless POD" loading="lazy">
+              <figcaption>Artistic impression of the anomaly of daily precipitations visualized with spatial modes of meshless POD.<span class="credit">Iacopo Tirelli · Experimental Aerodynamics &amp; Propulsion Lab, UC3M</span></figcaption>
+            </figure>
+            <figure class="slide">
+              <img src="assets/flowviz-5.jpg" alt="Spatial mode of a pulsed slot jet in crossflow" loading="lazy">
+              <figcaption>Artistic impression of the spatial mode of the wall-parallel flow field downstream of a pulsed slot jet in crossflow.<span class="credit">Rodrigo Castellanos · Experimental Aerodynamics &amp; Propulsion Lab, UC3M</span></figcaption>
+            </figure>
+            <figure class="slide">
+              <img src="assets/flowviz-6.jpg" alt="Manifold of extreme aerodynamic flows" loading="lazy">
+              <figcaption>Visualizing data structure: artistic impression of a manifold of extreme aerodynamic flows.<span class="credit">Zhiyuan Wang · Experimental Aerodynamics &amp; Propulsion Lab, UC3M</span></figcaption>
+            </figure>
+          </div>
+          <div class="slide-dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chair / Co-Chair bio modals -->
+    <dialog id="bio-ianiro" class="bio-modal" aria-labelledby="bio-ianiro-name">
+      <button class="bio-close" type="button" aria-label="Close">&times;</button>
+      <div class="bio-inner">
+        <div class="bio-head">
+          <img src="assets/chair-ianiro.jpg" alt="Portrait of Andrea Ianiro" loading="lazy">
+          <div>
+            <h3 id="bio-ianiro-name">Andrea Ianiro</h3>
+            <p class="bio-role">Conference Chair</p>
+            <p class="bio-affil">Full Professor, Universidad Carlos III de Madrid</p>
+          </div>
+        </div>
+        <p>Andrea Ianiro is a Full Professor of Aerospace Engineering at Universidad Carlos III de Madrid and an ERC Consolidator Grantee. Trained at the University of Naples Federico II, he works on unsteady aerodynamics, turbulence and heat transfer, combining advanced experimental techniques — tomographic PIV and infrared thermography — with machine learning and modal analysis. His ERC project SPANDRELS pioneers event-based flow sensing. He has co-edited <em>Experimental Aerodynamics</em> (CRC Press, 2017) and <em>Data-driven Fluid Mechanics</em> (Cambridge University Press, 2022), is an associate editor of the <em>International Journal of Heat and Mass Transfer</em>, and serves on the scientific committees of several international flow-measurement conferences.</p>
+        <p class="bio-email"><a href="mailto:aianiro@ing.uc3m.es">aianiro@ing.uc3m.es</a></p>
+      </div>
+    </dialog>
+    <dialog id="bio-discetti" class="bio-modal" aria-labelledby="bio-discetti-name">
+      <button class="bio-close" type="button" aria-label="Close">&times;</button>
+      <div class="bio-inner">
+        <div class="bio-head">
+          <img src="assets/chair-discetti.jpg" alt="Portrait of Stefano Discetti" loading="lazy">
+          <div>
+            <h3 id="bio-discetti-name">Stefano Discetti</h3>
+            <p class="bio-role">Conference Co-Chair</p>
+            <p class="bio-affil">Full Professor, Universidad Carlos III de Madrid</p>
+          </div>
+        </div>
+        <p>Stefano Discetti is a Full Professor of Aerospace Engineering at Universidad Carlos III de Madrid, Deputy Director of the department and an ERC Starting Grantee. He earned his degrees at the University of Naples, with doctoral research advancing tomographic PIV, including a research stay at Arizona State University with Prof. R. J. Adrian. His work develops optical flow-measurement techniques and machine-learning-based flow control, supported by his ERC Starting Grant NEXTFLOW and a BBVA Foundation Leonardo grant. He serves on the editorial board of <em>Measurement Science and Technology</em> and the steering committee of the ERCOFTAC PIV special interest group.</p>
+        <p class="bio-email"><a href="mailto:sdiscett@ing.uc3m.es">sdiscett@ing.uc3m.es</a></p>
+      </div>
+    </dialog>
+
   </main>
   <footer class="site-footer">
+            <div class="container footer-sponsors">
+                <p class="footer-sponsors-label">Sponsored by</p>
+                <div class="footer-sponsors-list">
+                    <a class="footer-sponsor" href="https://www.vsj.jp/" target="_blank" rel="noopener">
+                        <span class="footer-sponsor-logo"><img src="assets/sponsors/logovsj.jpg" alt="Visualization Society of Japan"></span>
+                        <span class="footer-sponsor-name">Visualization Society of Japan</span>
+                    </a>
+                </div>
+            </div>
     <div class="container footer-grid">
       <div>
         <img class="footer-logo" src="assets/logo-isfv22.png" alt="ISFV22 — 22nd International Symposium on Flow Visualization, Universidad Carlos III de Madrid">
@@ -96,7 +176,7 @@
       </div>
       <div>
         <h2>Contact</h2>
-        <p><a href="mailto:isfv22@uc3m.es">isfv22@uc3m.es</a><br><a href="https://www.uc3m.es/" target="_blank" rel="noopener">Universidad Carlos III de Madrid</a></p>
+        <p><a href="mailto:isfv22@uc3m.es">isfv22@uc3m.es</a><br><a href="https://www.uc3m.es/" target="_blank" rel="noopener">Universidad Carlos III de Madrid</a><br><a href="https://www.linkedin.com/company/isfv22/" target="_blank" rel="noopener">Follow us on LinkedIn</a></p>
       </div>
       <div>
         <h2>Information</h2>

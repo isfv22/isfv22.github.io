@@ -222,3 +222,50 @@ Generated version: multi-page draft, fresh archive.
 
 - About / History: highlighted the 50th anniversary (1977–2027) with a "Celebrating 50 years" badge and an updated intro.
 - Organization: Local Organizing Committee, Steering Committee and Emeriti Chairs are now listed alphabetically by surname.
+
+## Round v39 (call for abstracts)
+
+- Submissions: replaced "Submission platform: not yet available" with the email-based submission procedure (new "How to submit" section): PDF only on the ISFV22 template, mandatory subject line `ISFV22 ABSTRACT SUBMISSION - Surname - Short title`, metadata block in the body, submission ID acknowledgement (contact the secretariat if none within 48 hours), revision and withdrawal subjects, a "Start my submission" button (prefilled mailto) and direct template downloads.
+- Submissions: Abstract format and Review process cards updated (PDF only; evaluation by the Scientific Committee; notification by 28 February 2027). Short privacy line added; wording to be validated by the UC3M data-protection office.
+- Home: added "Call for abstracts" and "Important dates" buttons to the hero.
+- styles.css: new `.deadline-banner`, `.submit-steps`, `.code-block`, `code` and `.small` styles.
+- Not changed: `mfv.html` still says the Masters of Flow Visualization application platform is "to be announced".
+
+## Round v40 (licensing, templates, simplified submission)
+
+- Submissions restructured (inspired by the QIRT 2026 submission page): Licensing & copyright (CC BY / CC BY-ND, how to apply), Abstract templates (LaTeX, Word CC BY, Word CC BY-ND), How to submit, Review / Presentation / Dates.
+- Templates: `isfv22.cls` now supports the `license_nd` option (CC BY 4.0 by default) and prints the license statement in the footer of every page; new `\keywords{...}` command (Keywords line). Two Word templates (CC BY, CC BY-ND) with the same footer and Keywords line. Old `ISFV22_Abstract_template.zip/.docx` replaced by `ISFV22_Abstract_template_LaTeX.zip`, `ISFV22_Abstract_template_CC-BY.docx`, `ISFV22_Abstract_template_CC-BY-ND.docx`.
+- Submission by email simplified: only the subject `ISFV22 ABSTRACT SUBMISSION - Surname` plus two optional body lines (preferred presentation, presenting author if different). Title, authors, affiliations, keywords and license are read from the PDF. Topic is assigned by the committee from the keywords. The "student contribution" field was removed.
+- To be confirmed by the organisers: copyright statement (authors retain copyright), publication of accepted abstracts under the chosen license, 20 MB size limit.
+
+## Round v41 (presenting author in the template)
+
+- Templates: new "Presenting author" line in the LaTeX class (`\presenter{...}`) and in both Word templates, printed under the corresponding author. If left unchanged or empty, the corresponding author is assumed.
+- Submissions: the presenting author is now declared in the PDF; the email body keeps a single optional line (preferred presentation). Prefilled mailto updated.
+
+## Round v42
+
+- Removed the statement that the best abstracts will be selected for extended 30-minute contributions (Submissions page, in two places, and Speakers page). The sentence about possible special issues in international journals is unchanged.
+
+## Round v43
+
+- Removed the "Start my submission" button (prefilled mailto link), which does not work for people using Gmail in the browser or other web mail. The instructions are shown as copy-ready text instead.
+
+## Round v44
+
+- Submissions, step 1 split into two paragraphs: preparing and exporting the PDF, and a separate "Inside the template" paragraph making clear that the Presenting author and Keywords lines are filled in within the template itself (and should not be removed), and that nothing needs to be entered elsewhere. Based on tester feedback that the original sentence read as if the data had to be entered in another place.
+
+## Round v45 (Science and art, anniversary session page)
+
+- New page `seeing-the-flow.html` in the Programme dropdown (all pages updated): "Seeing the flow: from observation to understanding". It gives only general hints (guiding question, indicative themes) and states that programme, format and contributors are to be announced; it asks for contributions in the new area "Science and art" and says parallel sessions may be organised depending on submissions. No speakers, times or events are announced.
+- About: fourth scientific area "Science and art" (new card, 2x2 layout, anchor `#scientific-areas`).
+- Submissions: the Presentation card mentions the Science and art area and links to the new page.
+
+## Round v46 (consistency check)
+
+- Submissions: the introduction now lists the four scientific areas, including Science and art (as on the About page and in the call for abstracts).
+- Contacts: the website address is now https://isfv22.github.io/ (isfv22.uc3m.es redirects to it).
+
+## Round v47
+
+- Abstract templates (Word CC BY, Word CC BY-ND, LaTeX): "(Puerta de Toledo)" removed from the header, which now reads "Universidad Carlos III de Madrid". The LaTeX sample PDF was recompiled.

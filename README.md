@@ -269,3 +269,9 @@ Generated version: multi-page draft, fresh archive.
 ## Round v47
 
 - Abstract templates (Word CC BY, Word CC BY-ND, LaTeX): "(Puerta de Toledo)" removed from the header, which now reads "Universidad Carlos III de Madrid". The LaTeX sample PDF was recompiled.
+
+## Round v48
+
+- Conference awards: Fulvio Scarano (TU Delft) announced as recipient of the ISFV22 Leonardo da Vinci Award (new section at the top of awards.html; recipient line on the award card).
+- Invited speakers: the Plenary lectures section now has eight slots. The first is the Leonardo da Vinci Memorial Lecture by Fulvio Scarano, "Visualization of Flows and Surface Stresses: Where Do We Stand?" (speakers.html#leonardo-lecture), with a pop-up for the abstract, figure and biography; the other seven read "To be announced". To fill a slot, copy the structure of the first card and its dialog.
+- New images from the nomination dossier and presentation: assets/scarano-portrait.jpg, assets/scarano-lecture-cyclist.jpg and assets/scarano-volumetric-flow.jpg (image credit: Fulvio Scarano).

@@ -42,7 +42,7 @@
           <a class="nav-item" href="about.html">About</a>
           <a class="nav-item" href="organization.html">Organization</a>
           <div class="nav-item has-dropdown"><a href="submissions.html">Submissions</a><button class="dropdown-toggle" aria-label="Open Submissions submenu" aria-expanded="false">⌄</button><div class="dropdown"><a href="submissions.html">Abstract submission</a><a href="dates.html">Dates</a></div></div>
-          <div class="nav-item has-dropdown active"><a href="program.html">Programme</a><button class="dropdown-toggle" aria-label="Open Programme submenu" aria-expanded="false">⌄</button><div class="dropdown"><a href="program.html">Technical programme</a><a href="speakers.html">Invited speakers</a><a href="awards.html">Conference awards</a><a href="mfv.html">Masters of Flow Visualization</a><a href="short-courses.html">Short courses</a></div></div>
+          <div class="nav-item has-dropdown active"><a href="program.html">Programme</a><button class="dropdown-toggle" aria-label="Open Programme submenu" aria-expanded="false">⌄</button><div class="dropdown"><a href="program.html">Technical programme</a><a href="speakers.html">Invited speakers</a><a href="seeing-the-flow.html">Seeing the flow</a><a href="awards.html">Conference awards</a><a href="mfv.html">Masters of Flow Visualization</a><a href="short-courses.html">Short courses</a></div></div>
           <div class="nav-item has-dropdown"><a href="venue.html">Venue</a><button class="dropdown-toggle" aria-label="Open Venue submenu" aria-expanded="false">⌄</button><div class="dropdown"><a href="venue.html">Campus Madrid - Puerta de Toledo</a><a href="madrid.html">About Madrid</a><a href="heritage.html">Museums &amp; heritage</a><a href="travel.html">Travel</a></div></div>
           <a class="nav-item" href="social-events.html">Social events</a>
           <a class="nav-item" href="registration.html">Registration</a>
@@ -59,16 +59,64 @@
       </div>
     </section>
     <section class="section alternate" id="invited-speakers">
-      <div class="container two-column">
-        <div class="section-heading">
+      <div class="container">
+        <div class="section-heading center">
           <p class="eyebrow">Invited speakers</p>
           <h2>Plenary lectures</h2>
+          <p class="muted">Eight plenary lectures will open the scientific sessions of ISFV22. Speakers will be announced as they are confirmed, with name, affiliation, country, lecture title and abstract.</p>
         </div>
-        <div class="content-card prose">
-          <p>Invited speakers will be announced once confirmed. Speaker profiles will include name, affiliation, country, lecture title and abstract.</p>
-          <p>In addition to the invited plenary lectures, the best submitted abstracts will be selected for extended 30-minute contributions.</p>
-          <div class="placeholder-panel">Plenary speakers: to be confirmed</div>
-        </div>
+        <ol class="plenary-grid">
+          <li class="content-card plenary-card is-featured" id="leonardo-lecture">
+            <div class="plenary-photo"><img src="assets/scarano-portrait.jpg" alt="Portrait of Fulvio Scarano"></div>
+            <p class="eyebrow">Leonardo da Vinci Memorial Lecture</p>
+            <h3>Fulvio Scarano</h3>
+            <p class="plenary-affil">Delft University of Technology, The Netherlands</p>
+            <p class="plenary-title">Visualization of Flows and Surface Stresses: Where Do We Stand?</p>
+            <p class="plenary-actions"><button class="bio-link" type="button" data-bio-target="lecture-scarano">Abstract and biography</button></p>
+          </li>
+          <li class="content-card plenary-card is-tba">
+            <div class="plenary-photo plenary-photo-empty" aria-hidden="true"><img src="assets/logo-isfv-uc3m.png" alt=""></div>
+            <p class="eyebrow">Plenary lecture</p>
+            <h3>To be announced</h3>
+            <p class="plenary-affil">Speaker and lecture title will be published once confirmed.</p>
+          </li>
+          <li class="content-card plenary-card is-tba">
+            <div class="plenary-photo plenary-photo-empty" aria-hidden="true"><img src="assets/logo-isfv-uc3m.png" alt=""></div>
+            <p class="eyebrow">Plenary lecture</p>
+            <h3>To be announced</h3>
+            <p class="plenary-affil">Speaker and lecture title will be published once confirmed.</p>
+          </li>
+          <li class="content-card plenary-card is-tba">
+            <div class="plenary-photo plenary-photo-empty" aria-hidden="true"><img src="assets/logo-isfv-uc3m.png" alt=""></div>
+            <p class="eyebrow">Plenary lecture</p>
+            <h3>To be announced</h3>
+            <p class="plenary-affil">Speaker and lecture title will be published once confirmed.</p>
+          </li>
+          <li class="content-card plenary-card is-tba">
+            <div class="plenary-photo plenary-photo-empty" aria-hidden="true"><img src="assets/logo-isfv-uc3m.png" alt=""></div>
+            <p class="eyebrow">Plenary lecture</p>
+            <h3>To be announced</h3>
+            <p class="plenary-affil">Speaker and lecture title will be published once confirmed.</p>
+          </li>
+          <li class="content-card plenary-card is-tba">
+            <div class="plenary-photo plenary-photo-empty" aria-hidden="true"><img src="assets/logo-isfv-uc3m.png" alt=""></div>
+            <p class="eyebrow">Plenary lecture</p>
+            <h3>To be announced</h3>
+            <p class="plenary-affil">Speaker and lecture title will be published once confirmed.</p>
+          </li>
+          <li class="content-card plenary-card is-tba">
+            <div class="plenary-photo plenary-photo-empty" aria-hidden="true"><img src="assets/logo-isfv-uc3m.png" alt=""></div>
+            <p class="eyebrow">Plenary lecture</p>
+            <h3>To be announced</h3>
+            <p class="plenary-affil">Speaker and lecture title will be published once confirmed.</p>
+          </li>
+          <li class="content-card plenary-card is-tba">
+            <div class="plenary-photo plenary-photo-empty" aria-hidden="true"><img src="assets/logo-isfv-uc3m.png" alt=""></div>
+            <p class="eyebrow">Plenary lecture</p>
+            <h3>To be announced</h3>
+            <p class="plenary-affil">Speaker and lecture title will be published once confirmed.</p>
+          </li>
+        </ol>
       </div>
     </section>
 
@@ -110,8 +158,43 @@
       </div>
     </section>
 
+
+    <!-- Plenary lecture details -->
+    <dialog id="lecture-scarano" class="bio-modal lecture-modal" aria-labelledby="lecture-scarano-title">
+      <button class="bio-close" type="button" aria-label="Close">&times;</button>
+      <div class="bio-inner">
+        <div class="bio-head">
+          <img src="assets/scarano-portrait.jpg" alt="Portrait of Fulvio Scarano" loading="lazy">
+          <div>
+            <p class="bio-role">Leonardo da Vinci Memorial Lecture</p>
+            <h3 id="lecture-scarano-title">Fulvio Scarano</h3>
+            <p class="bio-affil">Professor of Aerodynamics, Faculty of Aerospace Engineering, Delft University of Technology, The Netherlands</p>
+          </div>
+        </div>
+        <h4>Visualization of Flows and Surface Stresses: Where Do We Stand?</h4>
+        <p>Flow visualization is accompanying fluid mechanics from its origins, with physical discoveries and the aesthetic beauty of flow generated patterns. The duality of bulk flow diagnostics and surface flow visualization still separates techniques like oil-flow, tufts, pressure and temperature sensitive paints from particle image velocimetry or smoke lines and wires. A unified approach that merges the flow diagnostics around the object and the processes at the fluid-solid interface is still missing. Where are we standing in this respect?</p>
+        <p>Citing JD Anderson &ldquo;The only mechanisms Nature has for communicating a force to a body moving through a fluid are pressure and shear stress on the body surface&rdquo;. Thus, accessing the surface flow properties unveils how the airflow exerts the forces causing motions and deformations of the object immersed in it.</p>
+        <p>The lecture discusses present efforts and a plausible future, based on the advancements in the domain of particle tracking, large-scale seeding and multi-directional volumetric systems. When combined with powerful data assimilation or computational techniques the global distribution of pressure and shear stress at the surface might be at reach. Can flow visualization be transformed into a holistic instrument that captures aerodynamic loads and forces alongside describing the flow patterns for phenomenological analysis?</p>
+        <figure class="media-figure lecture-figure">
+          <img src="assets/scarano-lecture-cyclist.jpg" alt="Surface pressure coefficient and surface-flow patterns mapped on a cyclist, with a colour scale from minus one to one" loading="lazy">
+          <figcaption>Surface pressure coefficient (<em>C<sub>p</sub></em>) and surface-flow patterns mapped on a cyclist.<span class="credit">Image: Fulvio Scarano</span></figcaption>
+        </figure>
+        <h4>About the speaker</h4>
+        <p>Fulvio Scarano is Professor of Aerodynamics at Delft University of Technology, where he has worked since 2000 and has held a full professorship since 2008. He earned his PhD in Aerospace Engineering in 2000, following research at the University of Naples Federico II and the von K&aacute;rm&aacute;n Institute for Fluid Dynamics. His work on iterative image-deformation methods helped shape modern quantitative PIV; he is a co-pioneer of tomographic PIV, and his group extended volumetric measurements to industrial wind tunnels and full-scale applications with helium-filled soap bubbles. He has received ERC Starting, Proof-of-Concept and Advanced Grants, chaired ISFV20 in Delft (2023) and initiated the <a href="mfv.html">Masters of Flow Visualization</a>. He is the recipient of the ISFV22 <a href="awards.html#leonardo-award">Leonardo da Vinci Award</a>.</p>
+      </div>
+    </dialog>
+
   </main>
   <footer class="site-footer">
+            <div class="container footer-sponsors">
+                <p class="footer-sponsors-label">Sponsored by</p>
+                <div class="footer-sponsors-list">
+                    <a class="footer-sponsor" href="https://www.vsj.jp/" target="_blank" rel="noopener">
+                        <span class="footer-sponsor-logo"><img src="assets/sponsors/logovsj.jpg" alt="Visualization Society of Japan"></span>
+                        <span class="footer-sponsor-name">Visualization Society of Japan</span>
+                    </a>
+                </div>
+            </div>
     <div class="container footer-grid">
       <div>
         <img class="footer-logo" src="assets/logo-isfv22.png" alt="ISFV22 — 22nd International Symposium on Flow Visualization, Universidad Carlos III de Madrid">
@@ -119,7 +202,7 @@
       </div>
       <div>
         <h2>Contact</h2>
-        <p><a href="mailto:isfv22@uc3m.es">isfv22@uc3m.es</a><br><a href="https://www.uc3m.es/" target="_blank" rel="noopener">Universidad Carlos III de Madrid</a></p>
+        <p><a href="mailto:isfv22@uc3m.es">isfv22@uc3m.es</a><br><a href="https://www.uc3m.es/" target="_blank" rel="noopener">Universidad Carlos III de Madrid</a><br><a href="https://www.linkedin.com/company/isfv22/" target="_blank" rel="noopener">Follow us on LinkedIn</a></p>
       </div>
       <div>
         <h2>Information</h2>

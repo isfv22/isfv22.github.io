@@ -275,3 +275,17 @@ Generated version: multi-page draft, fresh archive.
 - Conference awards: Fulvio Scarano (TU Delft) announced as recipient of the ISFV22 Leonardo da Vinci Award (new section at the top of awards.html; recipient line on the award card).
 - Invited speakers: the Plenary lectures section now has eight slots. The first is the Leonardo da Vinci Memorial Lecture by Fulvio Scarano, "Visualization of Flows and Surface Stresses: Where Do We Stand?" (speakers.html#leonardo-lecture), with a pop-up for the abstract, figure and biography; the other seven read "To be announced". To fill a slot, copy the structure of the first card and its dialog.
 - New images from the nomination dossier and presentation: assets/scarano-portrait.jpg, assets/scarano-lecture-cyclist.jpg and assets/scarano-volumetric-flow.jpg (image credit: Fulvio Scarano).
+
+## Round v49
+
+- Abstract length: two pages at most, including figures, tables and references; no word limit. Stated on the Abstract submission page (introduction, step 1, templates note, notice box) and inside the three templates.
+- Templates updated in assets/: ISFV22_Abstract_template_CC-BY.docx, ISFV22_Abstract_template_CC-BY-ND.docx, ISFV22_Abstract_template_LaTeX.zip (template text, README and recompiled sample PDF).
+
+## Round v50
+
+- Conference awards: Miguel A. Mendez (Université libre de Bruxelles and von Karman Institute for Fluid Dynamics) announced as recipient of the ISFV22 Carlomagno Award for young researchers (new section `#carlomagno-award` below the Leonardo da Vinci Award announcement, figure on the right; recipient line on the award card). The introduction of the awards list now says that only the Asanuma Award recipient will be announced during the symposium.
+- Invited speakers: second plenary slot filled with the Carlomagno Award Lecture by Miguel A. Mendez, "Beyond the Grid: Meshless Analysis and Modeling of Lagrangian Flow Data" (speakers.html#carlomagno-lecture), with a pop-up for the abstract, figure and biography (`#lecture-mendez`). Six slots read "To be announced".
+- New images from the nomination dossier: assets/mendez-portrait.jpg, assets/mendez-sph-vorticity.jpg (dossier Figure 1) and assets/mendez-sph-ftle.jpg (dossier Figure 2), image credit: Miguel A. Mendez. Award-recipient images listed in assets/IMAGE_CREDITS.md.
+- assets/mendez-sph-ftle.jpg is shown without its colorbar: the field under the semi-transparent legend box was recovered by inverting the overlay, and the thin strips hidden by the opaque colorbar and labels were filled from the neighbouring field. If the author supplies the plot without the colorbar, replace the file keeping its name.
+- Lecture abstract: "This keynote explores" changed to "This lecture explores" (at the organizers' request); otherwise as in the dossier.
+- styles.css: block "Round v50" (reversed announcement layout on wide screens, wide figure in lecture pop-ups).

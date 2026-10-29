@@ -74,11 +74,13 @@
             <p class="plenary-title">Visualization of Flows and Surface Stresses: Where Do We Stand?</p>
             <p class="plenary-actions"><button class="bio-link" type="button" data-bio-target="lecture-scarano">Abstract and biography</button></p>
           </li>
-          <li class="content-card plenary-card is-tba">
-            <div class="plenary-photo plenary-photo-empty" aria-hidden="true"><img src="assets/logo-isfv-uc3m.png" alt=""></div>
-            <p class="eyebrow">Plenary lecture</p>
-            <h3>To be announced</h3>
-            <p class="plenary-affil">Speaker and lecture title will be published once confirmed.</p>
+          <li class="content-card plenary-card is-featured" id="carlomagno-lecture">
+            <div class="plenary-photo"><img src="assets/mendez-portrait.jpg" alt="Portrait of Miguel A. Mendez"></div>
+            <p class="eyebrow">Carlomagno Award Lecture</p>
+            <h3>Miguel A. Mendez</h3>
+            <p class="plenary-affil">Universit&eacute; libre de Bruxelles and von Karman Institute for Fluid Dynamics, Belgium</p>
+            <p class="plenary-title">Beyond the Grid: Meshless Analysis and Modeling of Lagrangian Flow Data</p>
+            <p class="plenary-actions"><button class="bio-link" type="button" data-bio-target="lecture-mendez">Abstract and biography</button></p>
           </li>
           <li class="content-card plenary-card is-tba">
             <div class="plenary-photo plenary-photo-empty" aria-hidden="true"><img src="assets/logo-isfv-uc3m.png" alt=""></div>
@@ -181,6 +183,30 @@
         </figure>
         <h4>About the speaker</h4>
         <p>Fulvio Scarano is Professor of Aerodynamics at Delft University of Technology, where he has worked since 2000 and has held a full professorship since 2008. He earned his PhD in Aerospace Engineering in 2000, following research at the University of Naples Federico II and the von K&aacute;rm&aacute;n Institute for Fluid Dynamics. His work on iterative image-deformation methods helped shape modern quantitative PIV; he is a co-pioneer of tomographic PIV, and his group extended volumetric measurements to industrial wind tunnels and full-scale applications with helium-filled soap bubbles. He has received ERC Starting, Proof-of-Concept and Advanced Grants, chaired ISFV20 in Delft (2023) and initiated the <a href="mfv.html">Masters of Flow Visualization</a>. He is the recipient of the ISFV22 <a href="awards.html#leonardo-award">Leonardo da Vinci Award</a>.</p>
+      </div>
+    </dialog>
+
+    <dialog id="lecture-mendez" class="bio-modal lecture-modal" aria-labelledby="lecture-mendez-title">
+      <button class="bio-close" type="button" aria-label="Close">&times;</button>
+      <div class="bio-inner">
+        <div class="bio-head">
+          <img src="assets/mendez-portrait.jpg" alt="Portrait of Miguel A. Mendez" loading="lazy">
+          <div>
+            <p class="bio-role">Carlomagno Award Lecture</p>
+            <h3 id="lecture-mendez-title">Miguel A. Mendez</h3>
+            <p class="bio-affil">Associate Professor, Universit&eacute; libre de Bruxelles and von Karman Institute for Fluid Dynamics, Belgium</p>
+          </div>
+        </div>
+        <h4>Beyond the Grid: Meshless Analysis and Modeling of Lagrangian Flow Data</h4>
+        <p>Lagrangian approaches are gaining increasing importance in fluid mechanics, from particle tracking velocimetry (PTV) in experimental fluid dynamics to particle-based numerical methods such as Smoothed Particle Hydrodynamics (SPH). These techniques produce data scattered in space and evolving with the flow, challenging conventional approaches to flow analysis and visualization. While mapping these data onto Eulerian grids enables the use of established post-processing tools, working directly with their native representation offers promising opportunities.</p>
+        <p>This lecture explores recent developments towards meshless analysis and modeling of Lagrangian flow data. We first introduce physics-constrained Radial Basis Function (RBF) regression as a framework for constructing continuous, differentiable flow representations directly from scattered measurements. We then illustrate how this framework enables binless turbulence statistics, adaptive and anisotropic reconstructions, and meshless modal decompositions through RBF-induced inner products.</p>
+        <p>Finally, we explore the extension of these ideas towards Lagrangian POD&ndash;Galerkin reduced-order modeling, illustrated through an application to SPH simulations of sloshing flows. Together, these advances point towards a broader class of meshless methods connecting flow visualization, statistical analysis, and reduced-order modeling, while preserving the flexibility of Lagrangian representations.</p>
+        <figure class="media-figure lecture-figure is-wide">
+          <img src="assets/mendez-sph-vorticity.jpg" alt="Particle-based vorticity field around an aerofoil at high angle of attack, with a close-up of the trailing-edge vortex showing particles, velocity vectors and the circular kernel support" loading="lazy">
+          <figcaption>Particle-based visualization from a two-dimensional &delta;-SPH simulation of flow around a NACA 9412 aerofoil at <em>&alpha;</em>&nbsp;=&nbsp;30&deg; and <em>Re</em>&nbsp;=&nbsp;1000. Left: vorticity field revealing the separating shear layers and the shed vortex. Right: close-up of the trailing-edge vortex with particle-velocity vectors and the kernel support used for SPH gradient evaluation.<span class="credit">Image: Miguel A. Mendez</span></figcaption>
+        </figure>
+        <h4>About the speaker</h4>
+        <p>Miguel A. Mendez is Associate Professor at the Universit&eacute; libre de Bruxelles and the von Karman Institute for Fluid Dynamics (VKI), and holds the honorary title of Profesor Honor&iacute;fico at Universidad Carlos III de Madrid. He earned his PhD in Engineering at VKI and ULB in 2018. His work bridges experimental fluid mechanics, quantitative flow visualization, data-driven methods and flow control. Through physics-constrained radial-basis-function regression, his research reconstructs continuous flow fields directly from irregular image-velocimetry and particle-tracking data, supported by the open-source software SPICY. He developed the multiscale proper orthogonal decomposition (mPOD), available with other modal-analysis methods in the open-source framework MODULO. His ERC Starting Grant on Reinforcement Twinning investigates the joint learning of a digital twin and a control policy. He received a <em>Measurement Science and Technology</em> Outstanding Paper Award (2020) and was named an Emerging Leader by the journal (2022); his doctoral research was recognized with the Solvay PhD Thesis Award and the AFVL prize for laser diagnostics. He directs the annual <em>Hands-on Machine Learning for Fluid Dynamics</em> course. He is the recipient of the ISFV22 <a href="awards.html#carlomagno-award">Carlomagno Award</a>.</p>
       </div>
     </dialog>
 

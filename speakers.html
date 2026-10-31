@@ -63,9 +63,9 @@
         <div class="section-heading center">
           <p class="eyebrow">Invited speakers</p>
           <h2>Plenary lectures</h2>
-          <p class="muted">Eight plenary lectures will open the scientific sessions of ISFV22. Speakers will be announced as they are confirmed, with name, affiliation, country, lecture title and abstract.</p>
+          <p class="muted">Eight plenary lectures will open the scientific sessions of ISFV22: the three award lectures and five invited plenary lectures. Speakers will be announced as they are confirmed, with name, affiliation, country, lecture title and abstract.</p>
         </div>
-        <ol class="plenary-grid">
+        <ol class="plenary-grid is-row awards" aria-label="Award lectures">
           <li class="content-card plenary-card is-featured" id="leonardo-lecture">
             <div class="plenary-photo"><img src="assets/scarano-portrait.jpg" alt="Portrait of Fulvio Scarano"></div>
             <p class="eyebrow">Leonardo da Vinci Memorial Lecture</p>
@@ -74,29 +74,37 @@
             <p class="plenary-title">Visualization of Flows and Surface Stresses: Where Do We Stand?</p>
             <p class="plenary-actions"><button class="bio-link" type="button" data-bio-target="lecture-scarano">Abstract and biography</button></p>
           </li>
-          <li class="content-card plenary-card is-tba">
+          <li class="content-card plenary-card is-tba" id="asanuma-lecture">
             <div class="plenary-photo plenary-photo-empty" aria-hidden="true"><img src="assets/logo-isfv-uc3m.png" alt=""></div>
-            <p class="eyebrow">Plenary lecture</p>
+            <p class="eyebrow">Asanuma Award Lecture</p>
             <h3>To be announced</h3>
             <p class="plenary-affil">Speaker and lecture title will be published once confirmed.</p>
           </li>
-          <li class="content-card plenary-card is-tba">
-            <div class="plenary-photo plenary-photo-empty" aria-hidden="true"><img src="assets/logo-isfv-uc3m.png" alt=""></div>
-            <p class="eyebrow">Plenary lecture</p>
-            <h3>To be announced</h3>
-            <p class="plenary-affil">Speaker and lecture title will be published once confirmed.</p>
+          <li class="content-card plenary-card is-featured" id="carlomagno-lecture">
+            <div class="plenary-photo"><img src="assets/mendez-portrait.jpg" alt="Portrait of Miguel A. Mendez"></div>
+            <p class="eyebrow">Carlomagno Award Lecture</p>
+            <h3>Miguel A. Mendez</h3>
+            <p class="plenary-affil">Universit&eacute; libre de Bruxelles and von Karman Institute for Fluid Dynamics, Belgium</p>
+            <p class="plenary-title">Beyond the Grid: Meshless Analysis and Modeling of Lagrangian Flow Data</p>
+            <p class="plenary-actions"><button class="bio-link" type="button" data-bio-target="lecture-mendez">Abstract and biography</button></p>
           </li>
-          <li class="content-card plenary-card is-tba">
-            <div class="plenary-photo plenary-photo-empty" aria-hidden="true"><img src="assets/logo-isfv-uc3m.png" alt=""></div>
+        </ol>
+        <ol class="plenary-grid is-row five" aria-label="Invited plenary lectures">
+          <li class="content-card plenary-card is-featured" id="leonov-lecture">
+            <div class="plenary-photo"><img src="assets/leonov-portrait.jpg" alt="Portrait of Sergey B. Leonov"></div>
             <p class="eyebrow">Plenary lecture</p>
-            <h3>To be announced</h3>
-            <p class="plenary-affil">Speaker and lecture title will be published once confirmed.</p>
+            <h3>Sergey B. Leonov</h3>
+            <p class="plenary-affil">University of Notre Dame, USA</p>
+            <p class="plenary-title">Application of Mie Scattering for Precision Visualization of <span class="nowrap">High-Speed</span> Flow Features</p>
+            <p class="plenary-actions"><button class="bio-link" type="button" data-bio-target="lecture-leonov">Abstract and biography</button></p>
           </li>
-          <li class="content-card plenary-card is-tba">
-            <div class="plenary-photo plenary-photo-empty" aria-hidden="true"><img src="assets/logo-isfv-uc3m.png" alt=""></div>
+          <li class="content-card plenary-card is-featured" id="xu-lecture">
+            <div class="plenary-photo"><img src="assets/xu-portrait.jpg" alt="Portrait of Yang Xu"></div>
             <p class="eyebrow">Plenary lecture</p>
-            <h3>To be announced</h3>
-            <p class="plenary-affil">Speaker and lecture title will be published once confirmed.</p>
+            <h3>Yang Xu</h3>
+            <p class="plenary-affil">Beihang University, China</p>
+            <p class="plenary-title">Phosphorescence-Based Simultaneous Measurements of Velocity and Temperature</p>
+            <p class="plenary-actions"><button class="bio-link" type="button" data-bio-target="lecture-xu">Abstract and biography</button></p>
           </li>
           <li class="content-card plenary-card is-tba">
             <div class="plenary-photo plenary-photo-empty" aria-hidden="true"><img src="assets/logo-isfv-uc3m.png" alt=""></div>
@@ -181,6 +189,78 @@
         </figure>
         <h4>About the speaker</h4>
         <p>Fulvio Scarano is Professor of Aerodynamics at Delft University of Technology, where he has worked since 2000 and has held a full professorship since 2008. He earned his PhD in Aerospace Engineering in 2000, following research at the University of Naples Federico II and the von K&aacute;rm&aacute;n Institute for Fluid Dynamics. His work on iterative image-deformation methods helped shape modern quantitative PIV; he is a co-pioneer of tomographic PIV, and his group extended volumetric measurements to industrial wind tunnels and full-scale applications with helium-filled soap bubbles. He has received ERC Starting, Proof-of-Concept and Advanced Grants, chaired ISFV20 in Delft (2023) and initiated the <a href="mfv.html">Masters of Flow Visualization</a>. He is the recipient of the ISFV22 <a href="awards.html#leonardo-award">Leonardo da Vinci Award</a>.</p>
+      </div>
+    </dialog>
+
+    <dialog id="lecture-mendez" class="bio-modal lecture-modal" aria-labelledby="lecture-mendez-title">
+      <button class="bio-close" type="button" aria-label="Close">&times;</button>
+      <div class="bio-inner">
+        <div class="bio-head">
+          <img src="assets/mendez-portrait.jpg" alt="Portrait of Miguel A. Mendez" loading="lazy">
+          <div>
+            <p class="bio-role">Carlomagno Award Lecture</p>
+            <h3 id="lecture-mendez-title">Miguel A. Mendez</h3>
+            <p class="bio-affil">Associate Professor, Universit&eacute; libre de Bruxelles and von Karman Institute for Fluid Dynamics, Belgium</p>
+          </div>
+        </div>
+        <h4>Beyond the Grid: Meshless Analysis and Modeling of Lagrangian Flow Data</h4>
+        <p>Lagrangian approaches are gaining increasing importance in fluid mechanics, from particle tracking velocimetry (PTV) in experimental fluid dynamics to particle-based numerical methods such as Smoothed Particle Hydrodynamics (SPH). These techniques produce data scattered in space and evolving with the flow, challenging conventional approaches to flow analysis and visualization. While mapping these data onto Eulerian grids enables the use of established post-processing tools, working directly with their native representation offers promising opportunities.</p>
+        <p>This lecture explores recent developments towards meshless analysis and modeling of Lagrangian flow data. We first introduce physics-constrained Radial Basis Function (RBF) regression as a framework for constructing continuous, differentiable flow representations directly from scattered measurements. We then illustrate how this framework enables binless turbulence statistics, adaptive and anisotropic reconstructions, and meshless modal decompositions through RBF-induced inner products.</p>
+        <p>Finally, we explore the extension of these ideas towards Lagrangian POD&ndash;Galerkin reduced-order modeling, illustrated through an application to SPH simulations of sloshing flows. Together, these advances point towards a broader class of meshless methods connecting flow visualization, statistical analysis, and reduced-order modeling, while preserving the flexibility of Lagrangian representations.</p>
+        <figure class="media-figure lecture-figure is-wide">
+          <img src="assets/mendez-sph-vorticity.jpg" alt="Particle-based vorticity field around an aerofoil at high angle of attack, with a close-up of the trailing-edge vortex showing particles, velocity vectors and the circular kernel support" loading="lazy">
+          <figcaption>Particle-based visualization from a two-dimensional &delta;-SPH simulation of flow around a NACA 9412 aerofoil at <em>&alpha;</em>&nbsp;=&nbsp;30&deg; and <em>Re</em>&nbsp;=&nbsp;1000. Left: vorticity field revealing the separating shear layers and the shed vortex. Right: close-up of the trailing-edge vortex with particle-velocity vectors and the kernel support used for SPH gradient evaluation.<span class="credit">Image: Miguel A. Mendez</span></figcaption>
+        </figure>
+        <h4>About the speaker</h4>
+        <p>Miguel A. Mendez is Associate Professor at the Universit&eacute; libre de Bruxelles and the von Karman Institute for Fluid Dynamics (VKI), and holds the honorary title of Profesor Honor&iacute;fico at Universidad Carlos III de Madrid. He earned his PhD in Engineering at VKI and ULB in 2018. His work bridges experimental fluid mechanics, quantitative flow visualization, data-driven methods and flow control. Through physics-constrained radial-basis-function regression, his research reconstructs continuous flow fields directly from irregular image-velocimetry and particle-tracking data, supported by the open-source software SPICY. He developed the multiscale proper orthogonal decomposition (mPOD), available with other modal-analysis methods in the open-source framework MODULO. His ERC Starting Grant on Reinforcement Twinning investigates the joint learning of a digital twin and a control policy. He received a <em>Measurement Science and Technology</em> Outstanding Paper Award (2020) and was named an Emerging Leader by the journal (2022); his doctoral research was recognized with the Solvay PhD Thesis Award and the AFVL prize for laser diagnostics. He directs the annual <em>Hands-on Machine Learning for Fluid Dynamics</em> course. He is the recipient of the ISFV22 <a href="awards.html#carlomagno-award">Carlomagno Award</a>.</p>
+      </div>
+    </dialog>
+
+    <dialog id="lecture-leonov" class="bio-modal lecture-modal" aria-labelledby="lecture-leonov-title">
+      <button class="bio-close" type="button" aria-label="Close">&times;</button>
+      <div class="bio-inner">
+        <div class="bio-head">
+          <img src="assets/leonov-portrait.jpg" alt="Portrait of Sergey B. Leonov" loading="lazy">
+          <div>
+            <p class="bio-role">Plenary lecture</p>
+            <h3 id="lecture-leonov-title">Sergey B. Leonov</h3>
+            <p class="bio-affil">Professor, Department of Aerospace and Mechanical Engineering, University of Notre Dame, USA</p>
+          </div>
+        </div>
+        <h4>Application of Mie Scattering for Precision Visualization of <span class="nowrap">High-Speed</span> Flow Features</h4>
+        <p>Laser-scattering visualization using artificially seeded particles is a well-established, non-intrusive approach for studying complex supersonic flows. However, conventional methods, such as PIV, can be challenging in compressible flows because of the difficulty of achieving uniform seeding with externally introduced solid or liquid particles. Mie scattering based on naturally condensed particles formed during gas expansion in a supersonic nozzle (M&nbsp;=&nbsp;2&ndash;6) provides an attractive and cost-effective alternative. It enables both qualitative visualization of low-contrast flow structures and quantitative flow measurements through the strong dependence of scattered-light intensity on gas temperature and pressure. Two applications will be presented: visualization of sidewall vortices in a rectangular M&nbsp;=&nbsp;4 wind-tunnel test section and quantitative characterization of M&nbsp;=&nbsp;6 swirling flow in a free-jet configuration. CO<sub>2</sub> nucleation dynamics and particle-size estimates will also be discussed.</p>
+        <p>These examples demonstrate the capability of Mie scattering to address complex flow-diagnostic challenges using a relatively simple and affordable approach. The method&rsquo;s limitations, recent advances, and future prospects will also be discussed.</p>
+        <figure class="media-figure lecture-figure is-wide">
+          <img src="assets/leonov-mie-swirl.jpg" alt="Green laser-light images of a swirling supersonic jet: side view with turbulent edges around bright, layered laminar bands, and end view of a ring-shaped turbulent shear layer around a layered core with a dark centre" loading="lazy">
+          <figcaption>Mie-scattering visualization of an M&nbsp;=&nbsp;6 swirling flow of CO<sub>2</sub>-seeded nitrogen at the nozzle exit: flow-wise projection (left) and cross-flow projection (right). A turbulent shear layer surrounds the layered laminar core flow; the dark central region is attributed to vortex breakdown.<span class="credit">Image: Leo Jimenez, University of Notre Dame</span></figcaption>
+        </figure>
+        <h4>About the speaker</h4>
+        <p>Sergey B. Leonov is a Professor in the Department of Aerospace and Mechanical Engineering at the University of Notre Dame, USA, where he has worked since 2014. He received his PhD from the Baltic State University in 1990 and a senior Doctor of Science degree from the Russian Academy of Sciences in 2006. He was Head of Department at the Joint Institute for High Temperatures of the Russian Academy of Sciences and, concurrently, a Professor at Moscow Open University, and in 2013&ndash;2014 a Visiting Professor at The Ohio State University. His research interests and contributions are in plasma aerodynamics, flow physics, supersonic combustion, active flow control, weakly ionized plasmas, and experimental methods and instrumentation. He has over 400 publications, including over 100 peer-reviewed journal papers, book chapters and patents. He is an Associate Fellow of AIAA, an IEEE Senior Member and an Honorary Member of FLUCOME. He coordinates the Plasma Aerodynamics Discussion Group, serves on the AIAA Plasmadynamics and Lasers and the EUCASS Flow Physics technical committees, and is Section Editor-in-Chief of the journal <em>Aerospace</em> and a Section Editor of <em>Technical Physics Letters</em>. He is a recipient of the Yasuki Nakayama Medal &ldquo;In recognition of professional standing and outstanding contributions in the field of flow management, measurement, and visualization.&rdquo;</p>
+      </div>
+    </dialog>
+
+    <dialog id="lecture-xu" class="bio-modal lecture-modal" aria-labelledby="lecture-xu-title">
+      <button class="bio-close" type="button" aria-label="Close">&times;</button>
+      <div class="bio-inner">
+        <div class="bio-head">
+          <img src="assets/xu-portrait.jpg" alt="Portrait of Yang Xu" loading="lazy">
+          <div>
+            <p class="bio-role">Plenary lecture</p>
+            <h3 id="lecture-xu-title">Yang Xu</h3>
+            <p class="bio-affil">Professor, School of Aeronautic Science and Engineering, Beihang University, Beijing, China</p>
+          </div>
+        </div>
+        <h4>Phosphorescence-Based Simultaneous Measurements of Velocity and Temperature</h4>
+        <p class="lecture-subtitle">Applications to impinging jets and physics-informed flow-field reconstruction</p>
+        <p>Many thermal-fluid problems require measurements of velocity and temperature at the same time: neither field alone adequately describes the coupling between momentum and heat transport. Particle image and particle tracking velocimetry provide velocity information, whereas fluorescence, liquid-crystal thermometry and thermographic phosphors can reveal temperature. Bringing these measurements together remains an important challenge for quantitative flow visualization.</p>
+        <p>This lecture will describe a phosphorescence-based method for simultaneous velocity&ndash;temperature measurement using functional tracer particles. Particle trajectories provide velocity, while phosphorescence-lifetime decay provides temperature. Applications to impinging synthetic jets and cold jets illustrate the ability of the technique to resolve coupled thermal and flow structures.</p>
+        <p>The second part addresses the complementary role of physics-informed reconstruction. Experimentally measured velocity fields are used as inputs to physics-informed neural networks to infer pressure and temperature distributions. The approach is discussed in connection with vortex rings impinging on porous walls, where reconstructed pressure fields help characterize forces and drag. Together, these examples connect optical measurement, data-driven reconstruction and the interpretation of complex vortex&ndash;wall interactions.</p>
+        <figure class="media-figure lecture-figure is-wide">
+          <img src="assets/xu-lecture-figure.jpg" alt="Composite figure: vorticity and temperature fields of a cold jet and a hot jet measured with phosphorescent particle tracking, and a vortex ring interacting with a porous wall, with measured velocity and pressure reconstructed by a physics-informed neural network" loading="lazy">
+          <figcaption>Two complementary approaches to quantitative flow visualization. Left: simultaneous velocity and temperature measurement from phosphorescent particle tracking, showing vorticity and temperature fields for cold and hot jets. Right: PIV velocity measurements and physics-informed neural-network (PINN) reconstruction of pressure fields in vortex-ring/porous-wall interaction.<span class="credit">Image: Yang Xu</span></figcaption>
+        </figure>
+        <h4>About the speaker</h4>
+        <p>Yang Xu is a Professor in the School of Aeronautic Science and Engineering at Beihang University, Beijing, China. He received his PhD in Fluid Mechanics from Beihang University in 2017, following a BS in Engineering Mechanics (2011); his doctoral training included research at George Washington University (2015&ndash;2016), and he visited Pusan National University in 2018. Appointed full professor in 2024, he investigates quantitative optical diagnostics and vortex dynamics, combining experiments with physics-based modelling and data-driven field reconstruction. His contributions include a phosphorescence-lifetime technique that uses functional tracer particles both for particle-tracking velocimetry and for thermometry, and time-resolved PIV/LIF studies of vortex rings passing through porous walls, featured on two <em>Journal of Fluid Mechanics</em> covers (2018 and 2026). His recognitions include the National Postdoctoral Program for Innovative Talents (2017), Beijing&rsquo;s Young Top Talents programme (2021), an Excellent Youth Project of the National Natural Science Foundation of China (2023) and a Chinese Society of Aeronautics and Astronautics natural-science prize (2024). He helped organize FLUCOME 2023 and IUTAM-TNTI 2024 and serves on the ISFV International Scientific Committee.</p>
       </div>
     </dialog>
 

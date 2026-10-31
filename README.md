@@ -280,3 +280,58 @@ Generated version: multi-page draft, fresh archive.
 
 - Abstract length: two pages at most, including figures, tables and references; no word limit. Stated on the Abstract submission page (introduction, step 1, templates note, notice box) and inside the three templates.
 - Templates updated in assets/: ISFV22_Abstract_template_CC-BY.docx, ISFV22_Abstract_template_CC-BY-ND.docx, ISFV22_Abstract_template_LaTeX.zip (template text, README and recompiled sample PDF).
+
+## Round v50
+
+- Conference awards: Miguel A. Mendez (Université libre de Bruxelles and von Karman Institute for Fluid Dynamics) announced as recipient of the ISFV22 Carlomagno Award for young researchers (new section `#carlomagno-award` below the Leonardo da Vinci Award announcement, figure on the right; recipient line on the award card). The introduction of the awards list now says that only the Asanuma Award recipient will be announced during the symposium.
+- Invited speakers: second plenary slot filled with the Carlomagno Award Lecture by Miguel A. Mendez, "Beyond the Grid: Meshless Analysis and Modeling of Lagrangian Flow Data" (speakers.html#carlomagno-lecture), with a pop-up for the abstract, figure and biography (`#lecture-mendez`). Six slots read "To be announced".
+- New images from the nomination dossier: assets/mendez-portrait.jpg, assets/mendez-sph-vorticity.jpg (dossier Figure 1) and assets/mendez-sph-ftle.jpg (dossier Figure 2), image credit: Miguel A. Mendez. Award-recipient images listed in assets/IMAGE_CREDITS.md.
+- assets/mendez-sph-ftle.jpg is shown without its colorbar: the field under the semi-transparent legend box was recovered by inverting the overlay, and the thin strips hidden by the opaque colorbar and labels were filled from the neighbouring field. If the author supplies the plot without the colorbar, replace the file keeping its name.
+- Lecture abstract: "This keynote explores" changed to "This lecture explores" (at the organizers' request); otherwise as in the dossier.
+- styles.css: block "Round v50" (reversed announcement layout on wide screens, wide figure in lecture pop-ups).
+
+## Round v51
+
+- Invited speakers: third plenary slot filled with the plenary lecture by Sergey B. Leonov (University of Notre Dame, USA), "Application of Mie Scattering for Precision Visualization of High-Speed Flow Features" (speakers.html#leonov-lecture), with a pop-up for the abstract, figure and biography (`#lecture-leonov`). Five slots read "To be announced". To be published once the speaker has approved the material.
+- Abstract: first and last paragraphs of the abstract supplied by the speaker (Leonov_Bio_Abstract_Vis2027_v2.pdf), unchanged; the title is written in title case as for the other lectures. Biography condensed from the speaker's own.
+- New images: assets/leonov-portrait.jpg (from the speaker's bio sheet) and assets/leonov-mie-swirl.jpg (Mie-scattering images of the M = 6 swirling flow supplied by the speaker, flow-wise and cross-flow projections; image credit: Leo Jimenez, University of Notre Dame).
+
+## Round v52
+
+- Invited speakers: fourth plenary slot filled with the plenary lecture by Yang Xu (Beihang University, China), "Phosphorescence-Based Simultaneous Measurements of Velocity and Temperature" (speakers.html#xu-lecture), with a pop-up for the abstract, figure and biography (`#lecture-xu`); the lecture subtitle is shown under the title. Four slots read "To be announced". To be published once the speaker has approved the material.
+- Abstract and figure caption as in the speaker's nomination dossier; biography condensed from the dossier's profile.
+- New images: assets/xu-portrait.jpg and assets/xu-lecture-figure.jpg, supplied by the speaker (image credit: Yang Xu).
+- styles.css: block "Round v52" (lecture subtitle in the pop-up).
+
+## Round v53
+
+- Invited speakers: the eight plenary lectures are now shown in two rows. First row, the three award lectures in the order Leonardo da Vinci Memorial Lecture (Fulvio Scarano), Asanuma Award Lecture (to be announced, `#asanuma-lecture`) and Carlomagno Award Lecture (Miguel A. Mendez); second row, the five invited plenary lectures (Sergey B. Leonov, Yang Xu and three to be announced). The introduction says so. Cards keep the same width; incomplete rows are centred on narrower screens (3 per row below 1100 px, 2 below 760 px, 1 below 560 px).
+- styles.css: block "Round v53".
+
+## Round v54
+
+- Invited speakers: at Sergey B. Leonov's request, his biography ends with "He is a recipient of the Yasuki Nakayama Medal “In recognition of professional standing and outstanding contributions in the field of flow management, measurement, and visualization.”" He has approved the rest of the material.
+
+## Round v55 (Masters of Flow Visualization page)
+
+- Masterclass lecturers: four cards (one per technique), "To be announced", ready to be filled like the plenary lectures (photo, name, affiliation, technique and a pop-up if needed).
+- How it works: format of the day as in the invitations to the masterclass lecturers (four 30-minute masterclasses, two in the morning and two in the afternoon, each pair followed by a hands-on session; teams of three to four, up to six teams, 30 minutes per team at each station; experiments prepared and tested in advance; evaluation by a panel). Date and venue text unchanged.
+- How to apply: application by email to isfv22@uc3m.es with the subject "ISFV22 MFV APPLICATION - Surname": one PDF with the letter of motivation, title and abstract (150–200 words), plus a photo (JPG or PNG). Deadline 15 January 2027, as for abstracts. The Gmail-to-Drive script does not pick up these emails (it only handles subjects containing ABSTRACT).
+- styles.css: block "Round v55".
+
+## Round v56
+
+- Masters of Flow Visualization: applications are open to registered ISFV22 participants and close with early-bird registration, 31 March 2027 (was 15 January 2027). New first step "Register for ISFV22" (link to registration.html); applicants give in the email the name under which they registered. The deadline is also listed on dates.html.
+
+## Round v57
+
+- Masters of Flow Visualization, how to apply: "a photo" (inherited from the ISFV21 page) replaced by one image of a flow visualization made by the applicant, with a title and a short description of the image (150–200 words). Letter, title and description in one PDF; the image as JPG or PNG.
+
+## Round v58 (Short courses page, short-course fee)
+
+- Short courses page restructured like the Masters of Flow Visualization page: introduction; "The courses" (titles and instructors to be announced); "How it works" (Thursday 15 July 2027, afternoon, after the closing session, social activities in parallel); "How to register" (booked in the ISFV22 registration, fee €100); cards for fee, who can attend and contact.
+- Registration: new fee line "Short course (optional, Thursday 15 July, afternoon) — €100"; the "What is included" card says that short courses are booked separately.
+
+## Round v59
+
+- Short courses: "The courses" now shows four lecturer cards ("To be announced"), as on the Masters of Flow Visualization page, ready to be filled with photo, name, affiliation and topic.

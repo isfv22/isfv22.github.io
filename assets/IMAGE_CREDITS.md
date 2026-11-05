@@ -55,3 +55,7 @@ Award namesakes (awards.html): award-leonardo.jpg — Leonardo da Vinci, "Studie
 Conference chair / co-chair portraits (organization.html modals): chair-ianiro.jpg (Andrea Ianiro) and chair-discetti.jpg (Stefano Discetti), supplied by the organisers (UC3M).
 
 Award recipients and plenary lectures (awards.html, speakers.html): scarano-portrait.jpg, scarano-lecture-cyclist.jpg and scarano-volumetric-flow.jpg, supplied by Fulvio Scarano (nomination dossier and presentation); mendez-portrait.jpg, mendez-sph-vorticity.jpg and mendez-sph-ftle.jpg, supplied by Miguel A. Mendez (nomination dossier: δ-SPH simulation of the flow around a NACA 9412 aerofoil; colorbar removed from mendez-sph-ftle.jpg).
+leonov-portrait.jpg, supplied by Sergey B. Leonov (bio sheet); leonov-mie-swirl.jpg, Mie-scattering visualization of an M = 6 swirling flow, by Leo Jimenez (University of Notre Dame), supplied by Sergey B. Leonov.
+xu-portrait.jpg and xu-lecture-figure.jpg, supplied by Yang Xu (lecture figure: phosphorescent particle tracking of cold and hot jets; PINN pressure reconstruction for vortex-ring/porous-wall interaction).
+someya-portrait.jpg, someya-lecture-figure.jpg and someya-engine-flow.jpg, supplied by Satoshi Someya (combined velocity and temperature imaging of the gas flow in an engine cylinder).
+morris-portrait.jpg and morris-delta-wing.jpg, supplied by Sarah Morris (delta-wing wake from Morris & Williamson, Experiments in Fluids 61, 227, 2020).

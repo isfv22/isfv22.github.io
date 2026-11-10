@@ -59,3 +59,4 @@ leonov-portrait.jpg, supplied by Sergey B. Leonov (bio sheet); leonov-mie-swirl.
 xu-portrait.jpg and xu-lecture-figure.jpg, supplied by Yang Xu (lecture figure: phosphorescent particle tracking of cold and hot jets; PINN pressure reconstruction for vortex-ring/porous-wall interaction).
 someya-portrait.jpg, someya-lecture-figure.jpg and someya-engine-flow.jpg, supplied by Satoshi Someya (combined velocity and temperature imaging of the gas flow in an engine cylinder).
 morris-portrait.jpg and morris-delta-wing.jpg, supplied by Sarah Morris (delta-wing wake from Morris & Williamson, Experiments in Fluids 61, 227, 2020).
+basu-portrait.jpg, basu-aerobreakup.jpg and basu-soap-bubble.jpg, supplied by Saptarshi Basu (shock-induced aerobreakup of a droplet: Sharma, Singh, Rao, Kumar & Basu, Journal of Fluid Mechanics 929, A27, 2021; dynamics of soap bubble inflation: Rao, Jain & Basu, Physical Review Fluids 9, L051602, 2024).

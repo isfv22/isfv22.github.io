@@ -350,3 +350,20 @@ Generated version: multi-page draft, fresh archive.
 ## Round v62
 
 - Invited speakers: at her request, the speaker's name is written "Sarah Morris" (was "Sarah E. Morris") on her card, in her pop-up (heading, biography, image credit) and in the alt texts. No other change.
+
+## Round v63
+
+- Invited speakers: fourth slot of the invited plenary row filled with the plenary lecture by Saptarshi Basu (Indian Institute of Science, Bengaluru, India), "Spectacular Voyage of Droplets: A Multiscale Journey to Extreme Flow Conditions" (speakers.html#basu-lecture), with a pop-up (`#lecture-basu`). Abstract and biography exactly as supplied by the speaker (only the journal name is set in italics); one slot still reads "To be announced". To be published once the speaker has approved the material.
+- The pop-up shows the speaker's two high-speed visualizations side by side (new class `.figure-pair` in styles.css, Round v63: the two images keep the same height, and stack on phones).
+- New images supplied by the speaker: assets/basu-portrait.jpg, assets/basu-aerobreakup.jpg (shock-induced aerobreakup of a droplet; Sharma, Singh, Rao, Kumar & Basu, Journal of Fluid Mechanics 929, A27, 2021) and assets/basu-soap-bubble.jpg (dynamics of soap bubble inflation; Rao, Jain & Basu, Physical Review Fluids 9, L051602, 2024).
+
+## Round v64 (registration open)
+
+- Registration: the disabled button "Registration platform to be confirmed" is replaced by an active "Register now" button that opens the UC3M online registration platform (https://www.flowte.me/storefront/uc3m-?&lan=en, new tab), with the instruction to click on "ISFV" there; the fee note no longer says that the registration platform will be confirmed later. The cancellation policy "will be published soon" (was "before registration opens").
+- Home: new "Register" button in the hero, between "Call for abstracts" and "Important dates", linking to the Registration page.
+- Social events: final venues and practical details "will be announced in the coming months" (was "before registration opens").
+- Approvals: Saptarshi Basu approved his announcement on 9 Nov 2026 ("Looks good, please proceed"); the Asanuma Award announcement for Satoshi Someya was already published on 5 Nov 2026. Fees stay marked as provisional (they may still change).
+
+## Round v65
+
+- Registration: the "Register now" button now links directly to the ISFV22 event on the UC3M registration platform (https://www.flowte.me/storefront/uc3m-?e=38583); the instruction to click on "ISFV" after opening the platform is removed.

@@ -415,3 +415,7 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation M
 @media (max-width: 1100px) { .plenary-grid.is-row.four > li { flex-basis: calc((100% - 1rem) / 2); } }
 @media (max-width: 560px) { .plenary-grid.is-row.four > li { flex-basis: 100%; } }
 .submit-steps .mfv-steps { margin: .3rem 0 .6rem; }
+
+/* ---- Round v63: two images side by side in a lecture figure (equal heights; set --a/--b to the images' width/height ratios) ---- */
+.lecture-modal .figure-pair { display: grid; grid-template-columns: minmax(0, var(--a, 1fr)) minmax(0, var(--b, 1fr)); gap: .5rem; align-items: start; }
+@media (max-width: 560px) { .lecture-modal .figure-pair { grid-template-columns: minmax(0, 1fr); } }

@@ -73,14 +73,16 @@
         <div class="section-heading center">
           <p class="eyebrow">Masterclass lecturers</p>
           <h2>The <em>chefs</em> of the event</h2>
-          <p class="muted">Each edition is built around a small number of selected visualization techniques. At ISFV22 there will be four, each introduced by an expert &mdash; the <em>chefs</em> of the event &mdash; who also prepares the experiment that the teams run at the station of that technique. The masterclass lecturers and techniques will be announced here.</p>
+          <p class="muted">Each edition is built around a small number of selected visualization techniques. At ISFV22 there will be four, each introduced by an expert &mdash; the <em>chefs</em> of the event &mdash; who also prepares the experiment that the teams run at the station of that technique. The masterclass lecturers and techniques are announced here as they are confirmed.</p>
         </div>
         <ol class="plenary-grid is-row four" aria-label="Masterclasses">
-          <li class="content-card plenary-card is-tba">
-            <div class="plenary-photo plenary-photo-empty" aria-hidden="true"><img src="assets/logo-isfv-uc3m.png" alt=""></div>
+          <li class="content-card plenary-card is-featured" id="champougny-masterclass">
+            <div class="plenary-photo"><img src="assets/champougny-portrait.jpg" alt="Portrait of Lor&egrave;ne Champougny"></div>
             <p class="eyebrow">Masterclass</p>
-            <h3>To be announced</h3>
-            <p class="plenary-affil">Lecturer and technique will be published once confirmed.</p>
+            <h3>Lor&egrave;ne Champougny</h3>
+            <p class="plenary-affil">CNRS, Laboratoire de G&eacute;nie Chimique, Toulouse, France</p>
+            <p class="plenary-title">Soap film iridescence &mdash; from colors to thickness maps</p>
+            <p class="plenary-actions"><button class="bio-link" type="button" data-bio-target="masterclass-champougny">Description and biography</button></p>
           </li>
           <li class="content-card plenary-card is-tba">
             <div class="plenary-photo plenary-photo-empty" aria-hidden="true"><img src="assets/logo-isfv-uc3m.png" alt=""></div>
@@ -210,6 +212,32 @@
         </div>
       </div>
     </section>
+
+    <dialog id="masterclass-champougny" class="bio-modal lecture-modal" aria-labelledby="masterclass-champougny-title">
+      <button class="bio-close" type="button" aria-label="Close">&times;</button>
+      <div class="bio-inner">
+        <div class="bio-head">
+          <img src="assets/champougny-portrait.jpg" alt="Portrait of Lor&egrave;ne Champougny" loading="lazy">
+          <div>
+            <p class="bio-role">Masterclass &middot; Masters of Flow Visualization</p>
+            <h3 id="masterclass-champougny-title">Lor&egrave;ne Champougny</h3>
+            <p class="bio-affil">CNRS Researcher, Laboratoire de G&eacute;nie Chimique (LGC), Toulouse, France</p>
+          </div>
+        </div>
+        <h4>Soap film iridescence &mdash; from colors to thickness maps</h4>
+        <p>In the early 18th century, Sir Isaac Newton reported that thin films of water produce color fringes and realized that the color encodes the film thickness. Three centuries later, iridescence remains one of the most elegant tools to visualize flows in thin liquid films. This masterclass revisits the physical origin of soap film iridescence: interference between white light reflected from the two interfaces of a thin film selects a color that depends on the local thickness. We will derive the interference condition and show how it can be modeled and inverted to reconstruct the film thickness in time and space. We will discuss different experimental implementations of this technique &mdash; monochromatic fringes, RGB color matching, white-light reflectometry &mdash; and their limitations. Finally, we will illustrate how flows such as drainage and marginal regeneration become directly visible in the shifting colors of soap films.</p>
+        <figure class="media-figure lecture-figure is-wide">
+          <img src="assets/champougny-bubble-fringes.jpg" alt="Soap bubble resting on a liquid surface against a black background, its cap covered with horizontal bands of iridescent colour" loading="lazy">
+          <figcaption>Color fringes on a surface bubble, showing the thickness gradient in the bubble cap.<span class="credit">Image: Lor&egrave;ne Champougny</span></figcaption>
+        </figure>
+        <figure class="media-figure lecture-figure">
+          <img src="assets/champougny-bubble-thinning.jpg" alt="Ten snapshots of a surface bubble in two columns, whose iridescent colours and swirling patterns change as its film thins" loading="lazy">
+          <figcaption>Time sequence of a surface bubble thinning, showing iridescent colors changing in time (top to bottom, left to right).<span class="credit">Image: Lor&egrave;ne Champougny</span></figcaption>
+        </figure>
+        <h4>About the lecturer</h4>
+        <p>Lor&egrave;ne Champougny is a CNRS research scientist working at the Laboratoire de G&eacute;nie Chimique (Chemical Engineering Center) in Toulouse, France, since 2025. She received her PhD from Paris-Saclay University in 2015 and was subsequently a postdoctoral fellow at ESPCI in Paris and at Universidad Carlos III de Madrid, Spain. Her research aims to understand the structure and evolution of multiphase liquid architectures, such as thin films, foams, and emulsions. Her work combines experiments and modeling to reveal how liquid flow and interfacial phenomena (capillary forces, interfacial rheology, transfers) couple in these systems. Her doctoral research was awarded a L'Or&eacute;al-UNESCO For Women in Science fellowship (2014), and she was granted a European Marie Curie postdoctoral fellowship in 2020.</p>
+      </div>
+    </dialog>
 
   </main>
   <footer class="site-footer">

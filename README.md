@@ -367,3 +367,12 @@ Generated version: multi-page draft, fresh archive.
 ## Round v65
 
 - Registration: the "Register now" button now links directly to the ISFV22 event on the UC3M registration platform (https://www.flowte.me/storefront/uc3m-?e=38583); the instruction to click on "ISFV" after opening the platform is removed.
+
+## Round v66
+
+- Masters of Flow Visualization (mfv.html): first masterclass announced. The first of the four "To be announced" cards now shows Lorène Champougny (CNRS, Laboratoire de Génie Chimique, Toulouse, France), "Soap film iridescence — from colors to thickness maps" (mfv.html#champougny-masterclass), with a "Description and biography" pop-up (`#masterclass-champougny`). Title, description, biography and figure legends exactly as supplied by the lecturer. The intro now says that the lecturers and techniques "are announced here as they are confirmed". To be published once the lecturer has approved the material.
+- New images supplied by the lecturer (photographs by Lorène Champougny): assets/champougny-portrait.jpg, assets/champougny-bubble-fringes.jpg (color fringes on a surface bubble) and assets/champougny-bubble-thinning.jpg (time sequence of a surface bubble thinning).
+
+## Round v67
+
+- Masters of Flow Visualization: corrections requested by Lorène Champougny on the approval PDF (and only those). Description: "understood" → "realized" (Newton). Biography: "Chemical Engineering Center" → "Laboratoire de Génie Chimique (Chemical Engineering Center)"; "Carlos III University in Madrid" → "Universidad Carlos III de Madrid". The LinkedIn post text was corrected in the same way (outside the website).

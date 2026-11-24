@@ -61,3 +61,4 @@ someya-portrait.jpg, someya-lecture-figure.jpg and someya-engine-flow.jpg, suppl
 morris-portrait.jpg and morris-delta-wing.jpg, supplied by Sarah Morris (delta-wing wake from Morris & Williamson, Experiments in Fluids 61, 227, 2020).
 basu-portrait.jpg, basu-aerobreakup.jpg and basu-soap-bubble.jpg, supplied by Saptarshi Basu (shock-induced aerobreakup of a droplet: Sharma, Singh, Rao, Kumar & Basu, Journal of Fluid Mechanics 929, A27, 2021; dynamics of soap bubble inflation: Rao, Jain & Basu, Physical Review Fluids 9, L051602, 2024).
 champougny-portrait.jpg, champougny-bubble-fringes.jpg and champougny-bubble-thinning.jpg, supplied by Lorène Champougny (photographs by the lecturer: color fringes on a surface bubble; time sequence of a surface bubble thinning).
+lihu-portrait.jpg and lihu-rom-figure.jpg, supplied by Qihong L. Li-Hu (flow dynamics prediction and reconstruction from experimental measurements of a circular free jet in water).

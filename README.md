@@ -376,3 +376,16 @@ Generated version: multi-page draft, fresh archive.
 ## Round v67
 
 - Masters of Flow Visualization: corrections requested by Lorène Champougny on the approval PDF (and only those). Description: "understood" → "realized" (Newton). Biography: "Chemical Engineering Center" → "Laboratoire de Génie Chimique (Chemical Engineering Center)"; "Carlos III University in Madrid" → "Universidad Carlos III de Madrid". The LinkedIn post text was corrected in the same way (outside the website).
+
+## Round v68
+
+- Short courses (short-courses.html): first course announced. The first of the four "To be announced" cards now shows Qihong L. Li-Hu (Universidad Carlos III de Madrid), "Data-Driven Reduced-Order Models from Flow Measurements: A Hands-On Introduction" (short-courses.html#lihu-course), with a "Description and biography" pop-up (`#course-lihu`). Description, biography and figure caption exactly as supplied by the lecturer. The intro now says that the lecturers and topics "are announced here as they are confirmed". To be published once the lecturer has approved the material.
+- New images supplied by the lecturer: assets/lihu-portrait.jpg and assets/lihu-rom-figure.jpg (flow dynamics prediction and reconstruction from measurements of a circular free jet in water).
+
+## Round v69
+
+- Short courses: biography of Qihong L. Li-Hu revised at the organizers' request (NEXTFLOW ERC project, Galerkin methods and the "divide and conquer" methodology, collaboration with TU Delft; research-interests and outreach sentences removed). LinkedIn post text updated accordingly.
+
+## Round v70
+
+- Short courses: Qihong L. Li-Hu's biography now ends with "She won the Masters of Flow Visualization at ISFV21 in Tokyo." (also added to the LinkedIn post).

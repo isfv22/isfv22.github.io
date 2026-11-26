@@ -419,3 +419,18 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation M
 /* ---- Round v63: two images side by side in a lecture figure (equal heights; set --a/--b to the images' width/height ratios) ---- */
 .lecture-modal .figure-pair { display: grid; grid-template-columns: minmax(0, var(--a, 1fr)) minmax(0, var(--b, 1fr)); gap: .5rem; align-items: start; }
 @media (max-width: 560px) { .lecture-modal .figure-pair { grid-template-columns: minmax(0, 1fr); } }
+
+/* ---- Round v71: special issues page ---- */
+.journal-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem; margin-top: 1.6rem; }
+.journal-card { display: flex; gap: 1.3rem; align-items: flex-start; }
+.journal-card .journal-cover { width: 150px; flex: 0 0 150px; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 8px; box-shadow: var(--shadow); }
+.journal-card h3 { margin: .2rem 0 .6rem; }
+.journal-card .credit { font-size: .8rem; color: var(--muted); margin-top: .6rem; }
+@media (max-width: 860px) { .journal-grid { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 480px) { .journal-card { flex-direction: column; } .journal-card .journal-cover { width: 140px; flex-basis: auto; } }
+
+/* ---- Round v74: three journals (cover above the text in three columns) ---- */
+.journal-grid.is-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.journal-grid.is-three .journal-card { flex-direction: column; }
+@media (max-width: 860px) { .journal-grid.is-three { grid-template-columns: minmax(0, 1fr); } .journal-grid.is-three .journal-card { flex-direction: row; } }
+@media (max-width: 480px) { .journal-grid.is-three .journal-card { flex-direction: column; } }

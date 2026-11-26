@@ -389,3 +389,26 @@ Generated version: multi-page draft, fresh archive.
 ## Round v70
 
 - Short courses: Qihong L. Li-Hu's biography now ends with "She won the Masters of Flow Visualization at ISFV21 in Tokyo." (also added to the LinkedIn post).
+
+## Round v71
+
+- Sponsors: Elsevier added to the "Sponsored by" footer on every page (assets/sponsors/elsevier.png, linking to elsevier.com). The logo is provisional, cleaned from the journal-cover artwork; replace it with the official file from Elsevier, keeping the same name. Sponsorship agreement of 23 October 2026.
+- New page special-issues.html (Submissions menu, after Dates): special issues for selected ISFV22 papers in the International Journal of Heat and Mass Transfer (heat transfer contributions) and the European Journal of Mechanics – B/Fluids (fluid mechanics contributions), subject to each journal's editorial procedures; calls for papers to be announced on the page and to the mailing list. Journal covers: assets/journal-ijhmt.jpg, assets/journal-ejmflu.jpg (Elsevier). CSS block "Round v71".
+- Submissions page: the sentence on special issues now names the two journals and links to the new page.
+
+## Round v72
+
+- Footer: the provisional Elsevier logo is replaced by the official logo (tree and orange wordmark), same file assets/sponsors/elsevier.png.
+
+## Round v73
+
+- Special issues page: the two journal covers now link to the journal homepages on ScienceDirect (International Journal of Heat and Mass Transfer: https://www.sciencedirect.com/science/journal/00179310; European Journal of Mechanics – B/Fluids: https://www.sciencedirect.com/science/journal/09977546), opening in a new tab. Only special-issues.html changed (the covers keep the same size and position).
+- Short courses (short-courses.html): second course announced. The second card now shows Nikolay Vinnichenko (Lomonosov Moscow State University, Russia), "Background Oriented Schlieren – patterns and image processing techniques" (short-courses.html#vinnichenko-course), with a "Description and biography" pop-up (`#course-vinnichenko`). Description and figure captions exactly as supplied by the lecturer (a final full stop added to the captions); in the biography the last sentence was rephrased at the organizers' request ("Although he began his career in numerical simulations of fluid flows, …" → "His research interests include numerical simulations of fluid flows, quantitative visualization techniques (…) and data assimilation …"). Two of the three figures he sent are used: the convective plume (BOS and simulation) and the background patterns. Approved by the lecturer on 25 Nov 2026 ("I'm quite happy with the form of announcement"), with one correction: in the description "In this masterclass" → "In this course" (at ISFV22 the masterclasses are those of the Masters of Flow Visualization).
+- New images supplied by the lecturer: assets/vinnichenko-portrait.jpg (square crop of his portrait), assets/vinnichenko-bos-plume.jpg and assets/vinnichenko-bos-patterns.jpg.
+
+## Round v74
+
+- Special issues: a third journal, Experimental Thermal and Fluid Science (Elsevier), added. special-issues.html now presents three special issues: the International Journal of Heat and Mass Transfer for fundamental contributions in heat transfer, the European Journal of Mechanics – B/Fluids for fundamental contributions in fluid mechanics, and Experimental Thermal and Fluid Science for methodological contributions (new experimental and visualization techniques) in both fields. The third cover (assets/journal-etfs.jpg) links to https://www.sciencedirect.com/science/journal/08941777. Page title, meta description and heading updated ("three Elsevier journals").
+- submissions.html: the sentence on special issues names the three journals.
+- styles.css, CSS block "Round v74": with the class `is-three` the journal grid has three columns, each card with the cover above the text; below 860 px the cards stack as before.
+- Approvals: Elsevier (Telli Faez) approved the updated material with the three special issues on 26 Nov 2026 ("Happy to approve the new version"); Nikolay Vinnichenko approved his short-course announcement on 25 Nov 2026 (see Round v73).

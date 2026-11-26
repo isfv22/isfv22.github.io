@@ -7,7 +7,8 @@ To add / change a logo file, put it in this folder:
   - Format : PNG, JPG or SVG.
   - Shape  : landscape; it is shown ~72 px tall on a white card.
 
-Current sponsor: Visualization Society of Japan -> assets/sponsors/logovsj.jpg
+Current sponsors: Visualization Society of Japan -> assets/sponsors/logovsj.jpg
+                  Elsevier -> assets/sponsors/elsevier.png (official logo, tree and wordmark)
 
 To add another sponsor, add one line inside the <div class="footer-sponsors-list">
 block in the footer of each page:

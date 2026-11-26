@@ -41,7 +41,7 @@
           <a class="nav-item" href="index.html">Home</a>
           <a class="nav-item" href="about.html">About</a>
           <a class="nav-item" href="organization.html">Organization</a>
-          <div class="nav-item has-dropdown"><a href="submissions.html">Submissions</a><button class="dropdown-toggle" aria-label="Open Submissions submenu" aria-expanded="false">⌄</button><div class="dropdown"><a href="submissions.html">Abstract submission</a><a href="dates.html">Dates</a></div></div>
+          <div class="nav-item has-dropdown"><a href="submissions.html">Submissions</a><button class="dropdown-toggle" aria-label="Open Submissions submenu" aria-expanded="false">⌄</button><div class="dropdown"><a href="submissions.html">Abstract submission</a><a href="dates.html">Dates</a><a href="special-issues.html">Special issues</a></div></div>
           <div class="nav-item has-dropdown active"><a href="program.html">Programme</a><button class="dropdown-toggle" aria-label="Open Programme submenu" aria-expanded="false">⌄</button><div class="dropdown"><a href="program.html">Technical programme</a><a href="speakers.html">Invited speakers</a><a href="seeing-the-flow.html">Seeing the flow</a><a href="awards.html">Conference awards</a><a href="mfv.html">Masters of Flow Visualization</a><a href="short-courses.html">Short courses</a></div></div>
           <div class="nav-item has-dropdown"><a href="venue.html">Venue</a><button class="dropdown-toggle" aria-label="Open Venue submenu" aria-expanded="false">⌄</button><div class="dropdown"><a href="venue.html">Campus Madrid - Puerta de Toledo</a><a href="madrid.html">About Madrid</a><a href="heritage.html">Museums &amp; heritage</a><a href="travel.html">Travel</a></div></div>
           <a class="nav-item" href="social-events.html">Social events</a>
@@ -82,11 +82,13 @@
             <p class="plenary-title">Data-Driven Reduced-Order Models from Flow Measurements: A Hands-On Introduction</p>
             <p class="plenary-actions"><button class="bio-link" type="button" data-bio-target="course-lihu">Description and biography</button></p>
           </li>
-          <li class="content-card plenary-card is-tba">
-            <div class="plenary-photo plenary-photo-empty" aria-hidden="true"><img src="assets/logo-isfv-uc3m.png" alt=""></div>
+          <li class="content-card plenary-card is-featured" id="vinnichenko-course">
+            <div class="plenary-photo"><img src="assets/vinnichenko-portrait.jpg" alt="Portrait of Nikolay Vinnichenko"></div>
             <p class="eyebrow">Short course</p>
-            <h3>To be announced</h3>
-            <p class="plenary-affil">Lecturer and topic will be published once confirmed.</p>
+            <h3>Nikolay Vinnichenko</h3>
+            <p class="plenary-affil">Lomonosov Moscow State University, Russia</p>
+            <p class="plenary-title">Background Oriented Schlieren &ndash; patterns and image processing techniques</p>
+            <p class="plenary-actions"><button class="bio-link" type="button" data-bio-target="course-vinnichenko">Description and biography</button></p>
           </li>
           <li class="content-card plenary-card is-tba">
             <div class="plenary-photo plenary-photo-empty" aria-hidden="true"><img src="assets/logo-isfv-uc3m.png" alt=""></div>
@@ -219,6 +221,32 @@
       </div>
     </dialog>
 
+    <dialog id="course-vinnichenko" class="bio-modal lecture-modal" aria-labelledby="course-vinnichenko-title">
+      <button class="bio-close" type="button" aria-label="Close">&times;</button>
+      <div class="bio-inner">
+        <div class="bio-head">
+          <img src="assets/vinnichenko-portrait.jpg" alt="Portrait of Nikolay Vinnichenko" loading="lazy">
+          <div>
+            <p class="bio-role">Short course &middot; Thursday 15 July 2027</p>
+            <h3 id="course-vinnichenko-title">Nikolay Vinnichenko</h3>
+            <p class="bio-affil">Associate professor, Lomonosov Moscow State University, Moscow, Russia</p>
+          </div>
+        </div>
+        <h4>Background Oriented Schlieren &ndash; patterns and image processing techniques</h4>
+        <p>BOS enables one to perform quantitative measurements of instantaneous density and temperature fields using just a camera, a printed pattern and image processing software. In this course we will discuss the entire workflow of BOS measurement from image acquisition to reconstruction of the refractive index field and derivation of physical quantities. Particular attention will be given to new variants of BOS employing periodic patterns and corresponding image processing techniques &ndash; Fourier transform profilometry and phase shifting profilometry. Also, the related techniques for measurements of the liquid surface relief (free-surface synthetic schlieren and moon-glade BOS) will be considered. The hands-on session will include both in-class experiments and image processing practice.</p>
+        <figure class="media-figure lecture-figure is-wide">
+          <img src="assets/vinnichenko-bos-plume.jpg" alt="Two temperature maps of a convective plume rising from a heated horizontal wire in water, side by side: measured with BOS (left) and computed in a simulation (right), with a common colour scale from 23.8 to 25.2 degrees Celsius" loading="lazy">
+          <figcaption>Temperature fields for convective plume from a heated horizontal wire in water.<span class="credit">Image: Nikolay Vinnichenko</span></figcaption>
+        </figure>
+        <figure class="media-figure lecture-figure is-wide">
+          <img src="assets/vinnichenko-bos-patterns.jpg" alt="Six background patterns for BOS: random black dots, a multiscale noise pattern, a regular grid of coloured dots, a smooth periodic grey pattern, a grid of white squares on black, and a smooth periodic colour pattern" loading="lazy">
+          <figcaption>Various kinds of background patterns used in BOS.<span class="credit">Image: Nikolay Vinnichenko</span></figcaption>
+        </figure>
+        <h4>About the lecturer</h4>
+        <p>Nikolay Vinnichenko is now associate professor at the Faculty of Physics of Lomonosov Moscow State University, where he works since 2009. He graduated from Lomonosov Moscow State University in 2006 and received PhD in Physics (Chemical physics, physics of combustion and explosion, physics of extreme matter states) in 2009. His research interests include numerical simulations of fluid flows, quantitative visualization techniques (Background Oriented Schlieren, Particle Image Velocimetry and Infrared Thermography) and data assimilation using the results obtained with these techniques.</p>
+      </div>
+    </dialog>
+
   </main>
   <footer class="site-footer">
             <div class="container footer-sponsors">
@@ -227,6 +255,10 @@
                     <a class="footer-sponsor" href="https://www.vsj.jp/" target="_blank" rel="noopener">
                         <span class="footer-sponsor-logo"><img src="assets/sponsors/logovsj.jpg" alt="Visualization Society of Japan"></span>
                         <span class="footer-sponsor-name">Visualization Society of Japan</span>
+                    </a>
+                    <a class="footer-sponsor" href="https://www.elsevier.com/" target="_blank" rel="noopener">
+                        <span class="footer-sponsor-logo"><img src="assets/sponsors/elsevier.png" alt="Elsevier"></span>
+                        <span class="footer-sponsor-name">Elsevier</span>
                     </a>
                 </div>
             </div>
